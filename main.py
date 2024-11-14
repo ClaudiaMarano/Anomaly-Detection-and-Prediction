@@ -6,11 +6,11 @@ pd.set_option('display.width', 1000)
 
 """
 # Caricamento dei file del dataset fisico
-file_path1 = '.\dataset\Physical dataset\phy_att_1.csv'
-file_path2 = '.\dataset\Physical dataset\phy_att_2.csv'
-file_path3 = '.\dataset\Physical dataset\phy_att_3.csv'
-file_path4 = '.\dataset\Physical dataset\phy_att_4.csv'
-file_path5 = '.\dataset\Physical dataset\phy_norm.csv'
+file_path1 = '.\Src\dataset\Physical dataset\phy_att_1.csv'
+file_path2 = '.\Src\dataset\Physical dataset\phy_att_2.csv'
+file_path3 = '.\Src\dataset\Physical dataset\phy_att_3.csv'
+file_path4 = '.\Src\dataset\Physical dataset\phy_att_4.csv'
+file_path5 = '.\Src\dataset\Physical dataset\phy_norm.csv'
 
 # Leggi i file CSV specificando una diversa codifica
 phy_att_1 = pd.read_csv(file_path1, sep='\t', encoding='utf-16')
@@ -21,11 +21,11 @@ phy_norm = pd.read_csv(file_path5, sep='\t', encoding='utf-16')
 """
 
 # Caricamento dei file del dataset di rete
-#file_path6 = '.\dataset/Network datatset/csv/attack_1.csv'
-#file_path7 = '.\dataset/Network datatset/csv/attack_2.csv'
-#file_path8 = '.\dataset/Network datatset/csv/attack_3.csv'
-#file_path9 = '.\dataset/Network datatset/csv/attack_4.csv'
-file_path10 = '.\dataset/Network datatset/csv/normal.csv'
+#file_path6 = '.\Src\dataset/Network datatset/csv/attack_1.csv'
+#file_path7 = '.\Src\dataset/Network datatset/csv/attack_2.csv'
+#file_path8 = '.\Src\dataset/Network datatset/csv/attack_3.csv'
+#file_path9 = '.\Src\dataset/Network datatset/csv/attack_4.csv'
+file_path10 = '.\Src\dataset/Network datatset/csv/normal.csv'
 
 # Leggi i file CSV specificando una diversa codifica
 #attack_1 = pd.read_csv(file_path6, sep=';',encoding='utf-8')
